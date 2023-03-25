@@ -1,11 +1,11 @@
-
-import './App.css';
+import TopBar from "./components/Top-bar/topbar.jsx";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>HIeu</h1>
-    </div>
+    <>
+      <TopBar />
+    </>
   );
 }
 
